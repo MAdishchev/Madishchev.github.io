@@ -1,0 +1,40 @@
+h1{
+    background: #2471A3;
+    color: #EEEEEE;
+    padding: 10px 10px 10px 80px;
+}
+
+h2{
+    padding: 10px 0px 10px 40px;
+}
+
+p{
+    padding: 10px 0px 10px 40px;
+}
+
+.win{
+    text-align: center;
+    font-size: 30px;
+    width: 420px;
+    height: 10px;
+    margin: 0px;
+}
+
+
+.square{
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+}
+
+
+.normB{
+    width: 420px;
+    height: 60px;
+    margin: 10px;
+    margin-top: 40px;
+}
+
+body{
+
+}

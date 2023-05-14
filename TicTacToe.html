@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="play.js"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>My Webpage</title>
+    </head>
+    <body>
+        <h1>Tic tac toe</h1>
+
+
+        <button id="b11" type="button" class="btn btn-primary btn-lg square" onclick="turn(1, 1)"></button>
+        <button id="b12" type="button" class="btn btn-primary btn-lg square" onclick="turn(1, 2)"></button>
+        <button id="b13" type="button" class="btn btn-primary btn-lg square" onclick="turn(1, 3)"></button>
+        <br>
+        <button id="b21" type="button" class="btn btn-primary btn-lg square" onclick="turn(2, 1)"></button>
+        <button id="b22" type="button" class="btn btn-primary btn-lg square" onclick="turn(2, 2)"></button>
+        <button id="b23" type="button" class="btn btn-primary btn-lg square" onclick="turn(2, 3)"></button>
+        <br>
+        <button id="b31" type="button" class="btn btn-primary btn-lg square" onclick="turn(3, 1)"></button>
+        <button id="b32" type="button" class="btn btn-primary btn-lg square" onclick="turn(3, 2)"></button>
+        <button id="b33" type="button" class="btn btn-primary btn-lg square" onclick="turn(3, 3)"></button>
+
+        <div id="Win" class="win"></div>
+
+        <button id="reset" type="button" class="btn btn-primary btn-lg normB" onclick="reset()"></button>
+
+
+    </body>
+</html>
